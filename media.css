@@ -1,0 +1,212 @@
+@media (max-width:900px){
+    
+    :root{
+        --space:20px
+    }
+    .navbar{
+        padding: 10px 10px
+    }
+    .nav-link{
+        width: 100%;text-align: center
+    }
+    .navbar>.container-fluid{
+        align-items: baseline;
+    }
+    .navbar-toggler-icon{
+        outline: none !important;border: none!important
+    }
+    .nav-buttons{
+        flex-direction: column;text-align: center!important;width: 100%
+    }
+    .section-all{
+       flex-wrap: wrap
+   }
+
+   .logo-4{
+       flex-wrap: wrap
+   }
+   .logo-8{
+    flex-wrap: wrap
+}
+.section-text{
+    width: 100%
+}
+.section-text>h2{
+    width:100%;font-size: 50px
+}
+.section-text>h3{
+    width:100%
+}
+.mob-screen{
+    margin: 30px auto;width: 300px
+}
+.largetext{
+    width: 100%;font-size: 38px
+}
+.pay-btn{
+    width: 100%;justify-content: center;padding: 0px
+}
+.mediumsizetext{
+    width: 100%
+}
+.content2>h1{
+    width: 100%;font-size: 32px
+}
+.content4>h1{
+    width: 100%
+}
+.content6>h1{
+    width: 100%
+}
+
+.content6>h3{
+    width: 100%
+}
+.content7{
+    flex-wrap: wrap;margin-top: 25px;justify-content: unset;gap: 0px
+}
+.boxskewed{
+    height: 790px;clip-path: polygon(0 7%, 100% 0, 100% 100%, 0% 100%);
+}
+.content6 {
+    margin-top: -140px
+}
+#content8 {
+    margin-top: -530px;
+}
+#content8>h1{
+    width: 100%
+}
+#content8>h3{
+    width: 100%
+}
+.rotateparent {
+    position: relative;display: none;
+    top: 61px;
+    left: -4px;
+}
+.rotateparent :nth-of-type(1){
+    transform: rotate(-13deg) skew(-9deg);
+}
+
+.rotateparent :nth-of-type(2){
+    transform: rotate(-13deg) skew(-9deg);
+}
+.section-con-9 > h1{
+    width: 100%
+}
+.section-con-9 > h3{
+    width: 100%
+}
+.box-skew2{
+    clip-path: polygon(0 7%, 100% 0, 100% 94%, 0 100%);height:1120px
+}
+.section-con-9 {
+    padding-top: 90px;
+}
+.con9-2{
+    flex-wrap: wrap;gap: 0px
+}
+.box2-rotateparent {
+    position: relative;display: none;
+    top: 100px;
+}
+.box2-rotateparent :nth-of-type(1){
+    transform: rotate(-11deg) skew(-9deg);
+}
+.box2-rotateparent :nth-of-type(2){
+    transform: rotate(-11deg) skew(-9deg);
+}
+.content10 {
+    margin-top: 60px;
+}
+.content-box {
+    gap: 10px;
+    margin-top: 55px;
+    flex-wrap: wrap;
+}
+.con-box1 {
+    width: 350px
+}
+.content11{
+    flex-direction: column;margin-top: 100px;gap: 0px;justify-content: unset;height: 810px;padding-top: 70px;clip-path: polygon(0 0, 100% 0, 100% 94%, 0 100%);
+}
+.content11-2{
+    margin-top: 20px
+}
+.box-rotate{
+    top: -45px;display: none
+}
+.box-rotate :nth-of-type(1){
+    transform: rotate(-9deg) skew(-9deg);width: 60px
+}
+.box-rotate :nth-of-type(2){
+    transform: rotate(-9deg) skew(-9deg);width: 120px
+}
+.box-rotate2{
+    top: -7px;display: none
+}
+.box-rotate2 :nth-of-type(2){
+    transform: rotate(-9deg) skew(-9deg);width: 60px
+}
+.box-rotate2 :nth-of-type(1){
+    transform: rotate(-9deg) skew(-9deg);width: 120px
+}
+footer{
+    flex-wrap: wrap
+}
+.footmobile{
+    display: unset
+}
+
+.copyright{
+    top: -10px;display: none
+}
+.foot1{
+    display: none
+}
+
+}
+@media (min-width:573px)and (max-width:1000px){
+    :root{
+        --space:0px
+    }
+}
+@media (min-width:900px)and (max-width:1150px){
+    .box-skew2{
+        height: 1120px
+    }
+    .content6{
+        position: relative;top: -600px
+    }
+}
+@media (min-width:365px)and (max-width:1000px){
+    .rotateparent {
+        
+        top: 67px;}
+      
+        .rotateparent :nth-of-type(1){
+            transform: rotate(-10deg) skew(-9deg);display: none
+        }
+        .rotateparent :nth-of-type(2){
+            transform: rotate(-10deg) skew(-9deg);display: none
+        }
+        .box2-rotateparent {
+            position: relative;display: none;
+            top: 95px;
+        }
+        .box2-rotateparent :nth-child(1){
+            transform: rotate(-10deg) skew(-9deg);display: none
+        }
+        .box2-rotateparent :nth-child(1){
+            transform: rotate(-10deg) skew(-9deg);display: none
+        }
+        #content8 {
+            margin-top: -400px;
+        }
+}
+@media (min-width:776px) and (max-width:800px){
+    .box-skew2 {
+        height: fit-content
+    }
+}
