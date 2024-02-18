@@ -1,16 +1,17 @@
-@media (max-width:900px){
+@media (max-width:991px){
     
     :root{
         --space:20px
     }
-    .navbar{
-        padding: 10px 10px
-    }
+
     .nav-link{
         width: 100%;text-align: center
     }
-    .navbar>.container-fluid{
+    .navbar>.container {
+        display: flex;
+        flex-wrap: inherit;
         align-items: baseline;
+        justify-content: space-between;
     }
     .navbar-toggler-icon{
         outline: none !important;border: none!important
@@ -52,6 +53,10 @@
 .content2>h1{
     width: 100%;font-size: 32px
 }
+.content4{
+    margin-top: 0px;padding-top: 40px ;
+    
+}
 .content4>h1{
     width: 100%
 }
@@ -66,13 +71,7 @@
     flex-wrap: wrap;margin-top: 25px;justify-content: unset;gap: 0px
 }
 .boxskewed{
-    height: 790px;clip-path: polygon(0 7%, 100% 0, 100% 100%, 0% 100%);
-}
-.content6 {
-    margin-top: -140px
-}
-#content8 {
-    margin-top: -530px;
+    height: fit-content;clip-path: polygon(0 7%, 100% 0, 100% 100%, 0% 100%);padding: 70px 0px 30px
 }
 #content8>h1{
     width: 100%
@@ -99,7 +98,7 @@
     width: 100%
 }
 .box-skew2{
-    clip-path: polygon(0 7%, 100% 0, 100% 94%, 0 100%);height:1120px
+    clip-path: polygon(0 7%, 100% 0, 100% 94%, 0 100%);height:fit-content;padding: 20px 0px 60px
 }
 .section-con-9 {
     padding-top: 90px;
@@ -129,7 +128,10 @@
     width: 350px
 }
 .content11{
-    flex-direction: column;margin-top: 100px;gap: 0px;justify-content: unset;height: 810px;padding-top: 70px;clip-path: polygon(0 0, 100% 0, 100% 94%, 0 100%);
+    flex-direction: column;margin-top: 100px;gap: 20px;justify-content: unset;height: fit-content;padding:80px 0px;clip-path: polygon(0 0, 100% 0, 100% 94%, 0 100%);
+}
+.content11-1{
+    padding-left: var(--space)
 }
 .content11-2{
     margin-top: 20px
@@ -167,18 +169,70 @@ footer{
 }
 
 }
-@media (min-width:573px)and (max-width:1000px){
-    :root{
-        --space:0px
+
+@media (min-width:1000px)and (max-width:1068px){
+    .box2-rotateparent {
+        position: relative;
+        top: -20px;
     }
+    .box2-rotateparent :nth-of-type(1){
+        transform: rotate(-10deg) skew(-9deg)
+    }
+    .box2-rotateparent :nth-of-type(2){
+        transform: rotate(-11deg) skew(-9deg)
+    }
+    .rotateparent {
+        position: relative;
+        top: 189px;
+        left: -4px;
+    }
+    .rotateparent :nth-of-type(2){
+        transform: rotate(-11deg) skew(-9deg)
+    }
+    .rotateparent :nth-of-type(1){
+        transform: rotate(-11deg) skew(-9deg)
+    }
+    .box-rotate{
+        position: relative;top: -43px
+      }
+      .box-rotate2{
+        position: relative;top:-44px
+      }
+}
+
+@media (min-width:1068px)and (max-width:1200px){
+    .box2-rotateparent {
+        position: relative;
+        top: -31px;
+    }
+    .box2-rotateparent :nth-of-type(1){
+        transform: rotate(-10deg) skew(-9deg)
+    }
+    .box2-rotateparent :nth-of-type(2){
+        transform: rotate(-11deg) skew(-9deg)
+    }
+    .rotateparent {
+        position: relative;
+        top: 202px;
+        left: -4px;
+    }
+    .rotateparent :nth-of-type(2){
+        transform: rotate(-11deg) skew(-9deg)
+    }
+    .rotateparent :nth-of-type(1){
+        transform: rotate(-11deg) skew(-9deg)
+    }
+    
+    
 }
 @media (min-width:900px)and (max-width:1150px){
     .box-skew2{
-        height: 1120px
+        height: fit-content
     }
     .content6{
-        position: relative;top: -600px
+        position: relative;top: 0px
     }
+    
 }
 @media (min-width:365px)and (max-width:1000px){
     .rotateparent {
@@ -201,9 +255,7 @@ footer{
         .box2-rotateparent :nth-child(1){
             transform: rotate(-10deg) skew(-9deg);display: none
         }
-        #content8 {
-            margin-top: -400px;
-        }
+        
 }
 @media (min-width:776px) and (max-width:800px){
     .box-skew2 {
